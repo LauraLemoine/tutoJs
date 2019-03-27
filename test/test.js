@@ -25,6 +25,10 @@ function soustraire(nombre1, nombre2) {
    return nombre1 - nombre2; 
 }
 
+function multiplier(nombre1, nombre2) {
+   return nombre1 * nombre2;
+}
+
 //console log avec appel function avec definition des params 
 console.log(addition(n1,50)); 
 console.log('');
