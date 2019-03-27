@@ -11,6 +11,7 @@ console.log(h+1); //affiche 51
 i = Number("5"); //5 ecrit en Number 
 console.log(i+1); //affiche 6
 
+
 //function
 function addition(n1,n2) {
    return n1 + n2;
