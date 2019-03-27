@@ -21,9 +21,14 @@ function carre(nombre) {
    return nombre*nombre; 
 }
 
+function soustraire(nombre1, nombre2) {
+   return nombre1 - nombre2; 
+}
+
 //console log avec appel function avec definition des params 
 console.log(addition(n1,50)); 
 console.log('');
+console.log(soustraire(89,56));
 
 //Longeur d'une chaine de caractere
 let mot = "Je suis une chaine de caractere"; 
@@ -51,3 +56,4 @@ console.log(myArray2[1]);//affiche Paul
 //push un item dans un tableau 
 myArray.push('Gael');
 console.log(myArray[3]);
+
